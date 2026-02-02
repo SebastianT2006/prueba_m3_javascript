@@ -1,0 +1,70 @@
+/* Estilos personalizados para CRUDTASK */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Tarjeta de tarea */
+.task-card {
+    border-left: 4px solid #0d6efd;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+
+.task-card:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+}
+
+.task-card.pending {
+    border-left-color: #ffc107;
+}
+
+.task-card.in_progress {
+    border-left-color: #0dcaf0;
+}
+
+.task-card.completed {
+    border-left-color: #198754;
+}
+
+/* Badges de estado */
+.status-badge {
+    font-size: 0.85rem;
+    padding: 0.35rem 0.65rem;
+}
+
+/* Botones */
+.btn-sm {
+    font-size: 0.875rem;
+}
+
+/* Animación de carga */
+.loading {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Mejoras responsive */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1rem;
+    }
+    
+    .card-body {
+        padding: 1rem;
+    }
+}
+
+/* Alertas */
+.alert {
+    border-radius: 0.375rem;
+}
+
+/* Footer */
+.footer {
+    margin-top: 50px;
+    padding: 20px 0;
+    text-align: center;
+    color: #6c757d;
+}

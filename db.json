@@ -1,0 +1,51 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin Principal",
+      "email": "admin@crudtask.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Juan Pérez",
+      "email": "juan@estudiante.com",
+      "password": "user123",
+      "role": "user"
+    },
+    {
+      "id": "f9d5",
+      "name": "prueba",
+      "email": "prueba@gmail.com",
+      "password": "123",
+      "role": "user"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "2",
+      "title": "Proyecto Final",
+      "description": "Terminar el sistema CRUD",
+      "status": "in_progress",
+      "userId": 2,
+      "createdAt": "2026-01-20"
+    },
+    {
+      "id": "1dfd",
+      "title": "prueba",
+      "description": "hola soy una prueba",
+      "status": "completed",
+      "userId": "2",
+      "createdAt": "2026-02-02"
+    },
+    {
+      "id": "df30",
+      "title": "hola",
+      "description": "hola",
+      "status": "pending",
+      "userId": "f9d5",
+      "createdAt": "2026-02-02"
+    }
+  ]
+}

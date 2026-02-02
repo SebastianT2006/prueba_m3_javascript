@@ -1,0 +1,21 @@
+{
+  "name": "crudtask",
+  "version": "1.0.0",
+  "description": "Sistema de Gestión de Tareas Académicas",
+  "main": "index.html",
+  "scripts": {
+    "start": "json-server --watch db.json",
+    "server": "json-server --watch db.json --port 3000"
+  },
+  "keywords": [
+    "crud",
+    "tasks",
+    "bootstrap",
+    "vanilla-javascript"
+  ],
+  "author": "CRUDTASK",
+  "license": "MIT",
+  "devDependencies": {
+    "json-server": "^0.17.0"
+  }
+}
