@@ -20,6 +20,13 @@
       "email": "prueba@gmail.com",
       "password": "123",
       "role": "user"
+    },
+    {
+      "id": "803f",
+      "name": "1",
+      "email": "1@g",
+      "password": "1",
+      "role": "user"
     }
   ],
   "tasks": [
@@ -45,6 +52,14 @@
       "description": "hola",
       "status": "pending",
       "userId": "f9d5",
+      "createdAt": "2026-02-02"
+    },
+    {
+      "id": "bf06",
+      "title": "Estudiar JavaScript2",
+      "description": "12",
+      "status": "pending",
+      "userId": "803f",
       "createdAt": "2026-02-02"
     }
   ]

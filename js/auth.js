@@ -49,13 +49,19 @@ document.getElementById('loginForm').addEventListener('submit', async function(e
             showMessage('Inicio de sesión exitoso', 'success');
             
             // Redirigir según el rol
-            setTimeout(() => {
+            
                 if (user.role === 'admin') {
+                    Swal.fire({
+                    icon: "success",
+                    title: "Your work has been saved",
+                    showConfirmButton: false,
+                    timer: 1500
+                    });
                     window.location.href = 'pages/admin-dashboard.html';
                 } else {
                     window.location.href = 'pages/user-dashboard.html';
                 }
-            }, 1000);
+            
         } else {
             showMessage('Email o contraseña incorrectos', 'danger');
         }
