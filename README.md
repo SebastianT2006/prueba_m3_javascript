@@ -57,6 +57,6 @@ Recuerda que puedes crear más, pero seran de tipo USER, si quieres ir al panel 
 
 ##  Notas Importantes
 
-1. **Servidor JSON Server:** Debe estar ejecutándose en `http://localhost:3000` para que la aplicación funcione. de no ser asi, cambia todas las API al servidor dado
+1. **Servidor JSON Server:** Debe estar ejecutándose en `http://localhost:3000` para que la aplicación funcione. SI se abre en otro localHost cambia todas las API al servidor correspondiente
 
 2. **Sesión:** La sesión se guarda en localStorage del navegador. Para cerrar sesión completamente, usa el botón "Cerrar Sesión" o elimina directamente desde el local (No recomendado).
