@@ -20,8 +20,8 @@ Encontraras dos usuarios de prueba los cuales son los siguientes:
 - **Contraseña:** admin123
 
 ### Usuario
-- **Email:** juan@estudiante.com
-- **Contraseña:** user123
+- **Email:** prueba@gmail.com
+- **Contraseña:** 123
 
 Recuerda que puedes crear más, pero seran de tipo USER, si quieres ir al panel de admin tendras que usar al administrador o crear otro manuelmente en db.json
 

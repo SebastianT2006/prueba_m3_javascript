@@ -88,8 +88,8 @@ function displayTasks(tasks, userMap) {
                         </div>
                     </div>
                     <div class="mt-3">
-                        <button class="btn btn-sm btn-warning" onclick="editTask(${task.id})">Editar</button>
-                        <button class="btn btn-sm btn-danger" onclick="deleteTask(${task.id})">Eliminar</button>
+                        <button class="btn btn-sm btn-warning btn-edit" data-id="${task.id}">Editar</button>
+                        <button class="btn btn-sm btn-danger btn-delete" data-id="${task.id})">Eliminar</button>
                     </div>
                 </div>
             </div>
@@ -99,6 +99,19 @@ function displayTasks(tasks, userMap) {
     container.innerHTML = html;
 }
 
+document.addEventListener('click', e => {
+
+  if (e.target.classList.contains('btn-edit')) {
+    const taskId = e.target.dataset.id;
+    editTask(taskId);
+  }
+
+  if (e.target.classList.contains('btn-delete')) {
+    const taskId = e.target.dataset.id;
+    deleteTask(taskId);
+  }
+
+});
 // Obtener badge según estado
 function getStatusBadge(status) {
     const badges = {

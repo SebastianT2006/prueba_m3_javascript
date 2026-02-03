@@ -8,13 +8,6 @@
       "role": "admin"
     },
     {
-      "id": "2",
-      "name": "Juan Pérez",
-      "email": "juan@estudiante.com",
-      "password": "user123",
-      "role": "user"
-    },
-    {
       "id": "f9d5",
       "name": "prueba",
       "email": "prueba@gmail.com",
@@ -31,22 +24,6 @@
   ],
   "tasks": [
     {
-      "id": "2",
-      "title": "Proyecto Final",
-      "description": "Terminar el sistema CRUD",
-      "status": "in_progress",
-      "userId": 2,
-      "createdAt": "2026-01-20"
-    },
-    {
-      "id": "1dfd",
-      "title": "prueba",
-      "description": "hola soy una prueba",
-      "status": "completed",
-      "userId": "2",
-      "createdAt": "2026-02-02"
-    },
-    {
       "id": "df30",
       "title": "hola",
       "description": "hola",
@@ -55,12 +32,28 @@
       "createdAt": "2026-02-02"
     },
     {
-      "id": "bf06",
-      "title": "Estudiar JavaScript2",
-      "description": "12",
+      "title": "hola",
+      "description": "soy sebas prueba",
       "status": "pending",
       "userId": "803f",
+      "createdAt": "2026-02-02",
+      "id": "1bf1"
+    },
+    {
+      "id": "9bf8",
+      "title": "prueba",
+      "description": "prueba",
+      "status": "in_progress",
+      "userId": "803f",
       "createdAt": "2026-02-02"
+    },
+    {
+      "id": "47d3",
+      "title": "Estudiar JavaScript2",
+      "description": "sds",
+      "status": "in_progress",
+      "userId": "803f",
+      "createdAt": "2026-02-03"
     }
   ]
 }

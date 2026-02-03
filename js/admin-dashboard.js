@@ -7,6 +7,7 @@ let currentUser = null;
 window.addEventListener('DOMContentLoaded', function() {
     currentUser = JSON.parse(localStorage.getItem('currentUser'));
     
+    //Comparo si el USER tiene un rol, si no es asi lo regresa al login
     if (!currentUser) {
         window.location.href = '../index.html';
         return;
